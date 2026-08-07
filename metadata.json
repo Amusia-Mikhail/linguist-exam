@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: Linguist Exam nice all languages not full, all working",
+  "description": "Generate structured English grammar and vocabulary tests with instant answers using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
