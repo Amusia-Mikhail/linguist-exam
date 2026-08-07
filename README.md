@@ -39,7 +39,7 @@ Preparing for standardized exams like TOEFL and IELTS often leaves students gues
 
 ## 🚀 Local Development Setup
 
-1. Clone the repository: `git clone https://github.com/Amusia-Mikhail/linguist-exam.git`
+1. Clone the repository: git clone https://github.com/Amusia-Mikhail/linguist-exam.git
 
 2. Install dependencies: `npm install`
 
@@ -49,5 +49,6 @@ Preparing for standardized exams like TOEFL and IELTS often leaves students gues
    * `VITE_SUPABASE_ANON_KEY=your_supabase_anon_key`
 
 4. Launch the app: `npm run dev`
+
 
 
