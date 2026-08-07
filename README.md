@@ -39,18 +39,15 @@ Preparing for standardized exams like TOEFL and IELTS often leaves students gues
 
 ## 🚀 Local Development Setup
 
-```bash
-# 1. Clone the repository
-git clone [https://github.com/Amusia-Mikhail/linguist-exam.git](https://github.com/Amusia-Mikhail/linguist-exam.git)
+1. Clone the repository: `git clone https://github.com/Amusia-Mikhail/linguist-exam.git`
 
-# 2. Install dependencies
-npm install
+2. Install dependencies: `npm install`
 
-# 3. Configure Environment Variables
-# Create a .env file in the root directory and add:
-GEMINI_API_KEY=your_gemini_api_key
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+3. Configure Environment Variables in a `.env` file:
+   * `GEMINI_API_KEY=your_gemini_api_key`
+   * `VITE_SUPABASE_URL=your_supabase_url`
+   * `VITE_SUPABASE_ANON_KEY=your_supabase_anon_key`
 
-# 4. Run the local development server
-npm run dev
+4. Launch the app: `npm run dev`
+
+
