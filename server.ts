@@ -24,7 +24,7 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
 
 // Cache variables for system config to ensure server stability
 let dynamicApiKeys: string[] = ["", "", ""];
-let adminPassword = "admin123";
+let adminPassword = process.env.ADMIN_PASSWORD ?? "";
 let selectedModel = "gemini-3.5-flash";
 let useSupabase = true;
 
