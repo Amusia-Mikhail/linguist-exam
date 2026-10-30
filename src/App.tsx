@@ -963,7 +963,7 @@ export default function App() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          password: adminPasswordInput || "admin123",
+          password: adminPasswordInput,
           selectedModel: selectedModel
         })
       });
@@ -997,7 +997,7 @@ export default function App() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          password: adminPasswordInput || "admin123",
+          password: adminPasswordInput,
           newPassword: adminNewPassword.trim()
         })
       });
