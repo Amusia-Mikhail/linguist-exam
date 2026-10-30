@@ -871,7 +871,7 @@ export default function App() {
     setIsSavingKey(true);
     setAdminSaveMessage(null);
 
-    const passwordToUse = adminPasswordInput || "admin123";
+    const passwordToUse = adminPasswordInput
 
     try {
       // 1. Pull the entire current array/object state of API keys from the server first to ensure full structural integrity
