@@ -164,8 +164,7 @@ getConfig().then((cfg) => {
 function verifyAdminPassword(entered: string, correct: string): boolean {
   const cleanEntered = (entered || "").trim();
   const cleanCorrect = (correct || "").trim();
-  if (!cleanCorrect || cleanCorrect === "" || cleanCorrect === "admin123") {
-    return cleanEntered === "admin" || cleanEntered === "123456" || cleanEntered === "admin123";
+ 
   }
   return cleanEntered === cleanCorrect;
 }
